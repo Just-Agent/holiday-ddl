@@ -1,23 +1,51 @@
 [
   {
-    "id": "allconfs",
-    "name": "AllConfs",
-    "url": "https://www.allconfs.org/",
-    "priority": "aggregator",
+    "id": "hko-almanac",
+    "name": "Hong Kong Observatory 2026 Almanac",
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "priority": "official-almanac",
     "parser": "generic-link-date"
   },
   {
-    "id": "sinoconf",
-    "name": "SinoConf",
-    "url": "https://sinoconf.napstic.cn/index",
-    "priority": "aggregator-cn",
+    "id": "gov-cn",
+    "name": "China State Council / Gov.cn",
+    "url": "https://www.gov.cn/",
+    "priority": "official-government",
     "parser": "generic-link-date"
   },
   {
-    "id": "competehub",
-    "name": "CompeteHub",
-    "url": "https://www.competehub.dev/zh",
-    "priority": "competition-aggregator",
+    "id": "us-opm",
+    "name": "US OPM Federal Holidays",
+    "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+    "priority": "official-government",
+    "parser": "generic-link-date"
+  },
+  {
+    "id": "uk-bank-holidays",
+    "name": "UK Bank Holidays",
+    "url": "https://www.gov.uk/bank-holidays",
+    "priority": "official-government",
+    "parser": "generic-link-date"
+  },
+  {
+    "id": "japan-holidays",
+    "name": "Japan Cabinet Office National Holidays",
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "priority": "official-government",
+    "parser": "generic-link-date"
+  },
+  {
+    "id": "un-observances",
+    "name": "UN Observances",
+    "url": "https://www.un.org/en/observances",
+    "priority": "international-observance",
+    "parser": "generic-link-date"
+  },
+  {
+    "id": "timeanddate-holidays",
+    "name": "Timeanddate Holiday Calendar",
+    "url": "https://www.timeanddate.com/holidays/",
+    "priority": "calendar-reference",
     "parser": "generic-link-date"
   }
 ]
