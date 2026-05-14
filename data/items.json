@@ -1,0 +1,74 @@
+[
+  {
+    "id": "holiday-ddl-1",
+    "title": "端午节 2026",
+    "deadline": "2026-06-19T00:00:00",
+    "dateRange": "2026-06-19",
+    "location": "China",
+    "isOnline": true,
+    "tags": [
+      "法定假日",
+      "调休"
+    ],
+    "url": "https://www.gov.cn",
+    "status": "upcoming",
+    "stage": "Holiday",
+    "source": "Gov-style seed",
+    "type": "holiday",
+    "description": "中国法定节假日 demo。"
+  },
+  {
+    "id": "holiday-ddl-2",
+    "title": "国庆节 2026",
+    "deadline": "2026-10-01T00:00:00",
+    "dateRange": "2026-10-01",
+    "location": "China",
+    "isOnline": true,
+    "tags": [
+      "法定假日",
+      "长假"
+    ],
+    "url": "https://www.gov.cn",
+    "status": "upcoming",
+    "stage": "Holiday",
+    "source": "Gov-style seed",
+    "type": "holiday",
+    "description": "长假节点 demo。"
+  },
+  {
+    "id": "holiday-ddl-3",
+    "title": "高校春季学期选课截止",
+    "deadline": "2026-09-10T23:59:59",
+    "dateRange": "2026-09-10",
+    "location": "Campus",
+    "isOnline": true,
+    "tags": [
+      "校园",
+      "选课"
+    ],
+    "url": "https://just-agent.github.io/just-ddl/",
+    "status": "upcoming",
+    "stage": "Campus",
+    "source": "Demo seed",
+    "type": "program",
+    "description": "校园 DDL demo。"
+  },
+  {
+    "id": "holiday-ddl-4",
+    "title": "考研报名提醒 2026",
+    "deadline": "2026-10-25T23:59:59",
+    "dateRange": "2026-10-25",
+    "location": "China",
+    "isOnline": true,
+    "tags": [
+      "考试",
+      "报名"
+    ],
+    "url": "https://yz.chsi.com.cn",
+    "status": "upcoming",
+    "stage": "Registration",
+    "source": "Official-style seed",
+    "type": "program",
+    "description": "考试类日常 DDL demo。"
+  }
+]
